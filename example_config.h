@@ -1,5 +1,9 @@
-const char[] wifi_ssid = "YOUR_WIFI_SSID" //Change this to your WiFi SSID
-const char[] wifi_password = "YOUR_WIFI_PASSWORD" //Change this to your WiFi password
-const char[] redis_address = "redis-13959.c228.us-central1-1.gce.cloud.redislabs.com" //Change this to your Redis address
-const int redis_port = 13959 //Change this to your Redis port
-const char[] redis_password = "wVdsBAqzCaWtaOC7DLVeuj2SuMuZc1dm" //Change this to your Redis password
+const char[] wifi_ssid = "YOUR_WIFI_SSID"; //Change this to your WiFi SSID
+const char[] wifi_password = "YOUR_WIFI_PASSWORD"; //Change this to your WiFi password
+const char[] redis_address = "redis-13959.c228.us-central1-1.gce.cloud.redislabs.com"; //Change this to your Redis address
+const int redis_port = 13959; //Change this to your Redis port
+const char[] redis_password = "wVdsBAqzCaWtaOC7DLVeuj2SuMuZc1dm"; //Change this to your Redis password
+const char[] redis_key = "example_sensor"; //Change this to your Redis key
+const char* ntpServer = "pool.ntp.org"; //Change this to your NTP server
+const long gmtOffset_sec = 0; //Change this to your GMT offset in seconds
+const int daylightOffset_sec = 0; //Change this to your daylight offset in seconds
